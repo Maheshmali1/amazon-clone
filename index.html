@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amazon Clone</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+          integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header>
+    <div class="nav-bar">
+        <div class="logo hover-border">
+            <img src="assets/amazon_logo.svg"/>
+        </div>
+        <!-- delivery address -->
+        <div class="nav-address hover-border">
+            <div class="location-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="location-details">
+                <p class="deliver">Deliver to</p>
+                <p class="location">Pune 411234</p>
+            </div>
+        </div>
+        <!-- search bar -->
+        <div class="search-bar hover-border">
+            <select name="search-bar" id="search-bar-options" class="options">
+                <option value="">All</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Clothing">Clothing</option>
+            </select>
+
+            <input class="text" type="text" placeholder="Search Amazon.in">
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="user-options ">
+            <!-- language -->
+            <div class="language option hover-border">
+                <i class="fa-solid fa-globe"></i>
+                <div class="text">
+                    EN
+                </div>
+            </div>
+            <!-- account and sign in -->
+            <div class="accounts option hover-border">
+                <div>
+                    <p class="sign-in">Hello, sign in</p>
+                    <p class="list">Account & Lists</p>
+                </div>
+            </div>
+
+            <!-- returns & order -->
+            <div class="returns option hover-border">
+                <div>
+                    <p class="returns-title">Returns</p>
+                    <p class="orders-title">& Orders</p>
+                </div>
+            </div>
+
+            <!-- cart -->
+            <div class="cart option hover-border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>cart</p>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+</body>
+</html>

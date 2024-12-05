@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+.nav-bar {
+    font-family: arial, sans-serif;
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.hover-border {
+    border: 2px solid #0F1111;
+}
+
+.hover-border:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* logo section */
+.logo img {
+    height: 35px;
+    /*width: 130px;*/
+    padding: 5px 8px 0 6px;
+    margin: 1px;
+}
+
+/* location bar */
+.nav-address {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+}
+
+.nav-address .location-icon {
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+.nav-address .location-details .deliver {
+    font-size: 0.85rem;
+}
+
+.nav-address .location-details .location {
+    font-weight: 700;
+}
+
+.nav-address .location-details {
+    padding-left: 5px;
+}
+
+/* search bar */
+
+
+.search-bar {
+    display: flex;
+    width: 45%;
+}
+
+.search-bar .options {
+    width: 50px;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 5px;
+}
+
+.search-bar .text {
+    width: 90%;
+    padding: 5px 4px;
+    outline: none;
+}
+
+.search-bar .icon {
+    width: 45px;
+    height: 40px;
+    background-color: #FEBD69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-bar:hover {
+    border: 2px solid #FEBD69;
+    border-radius: 6px;
+}
+
+/* user options */
+.user-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-options .option {
+    margin-right: 20px;
+    height: 40px;
+    padding: 5px
+}
+
+/* language section*/
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language i, text {
+    padding: 5px;
+}
+
+/* accounts and sign in */
+
+.accounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accounts .sign-in {
+    font-size: 0.75rem;
+}
+
+.accounts .list {
+    font-weight: 700;
+    font-size: 0.87rem;
+}
+
+/* returns and orders */
+.returns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.returns .returns-title {
+    font-size: 0.75rem;
+}
+
+.returns .orders-title {
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+
+/* cart section */
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart i {
+    font-size: 26px;
+}
+
+.cart p {
+    font-weight: 700;
+    font-size: 0.87rem;
+}
