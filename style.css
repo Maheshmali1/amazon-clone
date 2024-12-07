@@ -475,3 +475,52 @@
     cursor: pointer;
     color:white;
 }
+
+/* amazon services */
+.amazon-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131A22;
+    color:white;
+    height: 200px;
+}
+
+.amazon-services .service-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    margin: 100px 0;
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+.amazon-services .service-cards .card {
+    width: 130px;
+    font-size: 0.75rem;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.amazon-services .service-cards .card:hover {
+    text-decoration: underline;
+}
+
+.amazon-services .service-cards .card .header {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.footer-copyright {
+    text-align: center;
+    background-color: #131A22;
+    color:white;
+    height: 50px;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.footer-copyright p {
+    margin-bottom: 8px;
+}
