@@ -216,9 +216,10 @@
 }
 
 /* cards section */
-
-.feature-cards-section {
+.features-section {
     background-color: #E3E6E6;
+}
+.feature-cards-section {
     padding-top: 20px;
 }
 
@@ -266,5 +267,211 @@
     color: #007185;
     font-size: 0.82rem;
     padding: 0 20px;
-    margin-top:24px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+.inner-card .card-link:hover {
+    color: #cf5d06;
+}
+
+/* carousel section */
+
+.feature-carousel {
+    height:285px;
+    width: 97.5%;
+    background-color: white;
+    margin: 4% 1.5% 0;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.feature-carousel div {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    overflow: scroll;
+}
+
+.feature-carousel div img {
+    height:200px;
+    width: 200px;
+}
+
+.feature-carousel h2 {
+    font-size: 1.32rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.scroll-btn {
+    font-size: 35px;
+    background-color: white;
+    height: 100px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.scroll-right-btn {
+    right: 20px;;
+}
+
+.scroll-btn:hover {
+    border: 2px solid #007185;
+}
+
+/* sign in section */
+.horizontal-divider {
+    height:5px;
+    border-top: 1px solid gray;
+    margin: 20px 20px;
+}
+
+.sign-in-section {
+    height: 90px;
+}
+
+.sign-in-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sign-in-btn {
+    width: 230px;
+    height: 28px;
+    border: 1px solid #ECB02F;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background: linear-gradient(to bottom,#FFD674,#FEC83C );
+    cursor: pointer;
+    position: relative;
+    left: 43%;
+    margin: 10px;
+}
+
+.sign-in-section p {
+    font-size: 0.68rem;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.sign-in-section p .start-here {
+    color: #017185;
+    cursor: pointer;
+}
+
+.sign-in-section p .start-here:hover {
+    color: #cf5d06;
+}
+
+.top-scroll {
+    height: 49px;
+    color: white;
+    background-color: #364759;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.82rem;
+}
+
+.top-scroll:hover {
+    opacity: 90%;
+}
+
+/*footer section*/
+.contact-section {
+    background-color: #222F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+.link-sections-container {
+    display: flex;
+    height: 294px;
+    column-gap: 60px;
+}
+
+.link-section {
+    width: 200px;
+}
+
+.link-sections-container .link-section p {
+    color: white;
+    margin: 0 0 10px;
+    font-size: 0.87rem;
+    cursor: pointer;
+}
+
+.link-sections-container .link-section p:hover {
+    text-decoration: underline;
+}
+
+.link-sections-container .link-section .link-header {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 6px 0 14px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.link-sections-container .link-section .link-header:hover {
+    text-decoration: none;
+}
+
+.amazon-footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    background-color: #222F3E;
+}
+
+.amazon-footer-section .main-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+.amazon-footer-section .main-section div img {
+    width: 76px;
+    height: 22px;
+}
+
+.footer-divider {
+    height:1px;
+    border: 1px solid gray;
+}
+
+.amazon-footer-section .main-section .button-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+}
+.amazon-footer-section .main-section  .button {
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+    height: 33px;
+    cursor: pointer;
+    color:white;
 }
