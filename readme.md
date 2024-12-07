@@ -1,6 +1,7 @@
 # Amazon Clone Project
 
-## Project Description
+
+## Project Description ([Live link](https://maheshmali1.github.io/amazon-clone/))
 The Amazon Clone is a replica of [Amazon's e-commerce](https://www.amazon.in/) website built for learning purposes. This project focuses on implementing precise design standards using HTML and CSS, closely mimicking Amazon's UI layout and responsiveness. It serves as a hands-on learning exercise to master web development fundamentals, including layout techniques, typography, scroll behavior, and interactive UI components.
 
 ---
